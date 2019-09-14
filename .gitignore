@@ -1,0 +1,12 @@
+# macOS
+*.DS_Store
+
+# JetBrains
+*.idea/
+
+# Visual Studio
+*.vs/
+*.vscode/
+
+# Logs
+*.log

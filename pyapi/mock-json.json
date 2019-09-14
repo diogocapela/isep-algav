@@ -1,0 +1,84 @@
+[
+    {
+        "machine": "m1",
+        "tasks": [
+            {
+                "fromTime": 0.5,
+                "toTime": 1.5,
+                "action": "setup",
+                "bodyAction": {
+                    "tool": "fa"
+                }
+            },
+            {
+                "fromTime": 1.5,
+                "toTime": 4.5,
+                "action": "exec",
+                "bodyAction": {
+                    "op": "op11",
+                    "qty": 3,
+                    "product": "p3",
+                    "client": "cl2",
+                    "task": "t3"
+                }
+            },
+            {
+                "fromTime": 27.0,
+                "toTime": 31.0,
+                "action": "exec",
+                "bodyAction": {
+                    "op": "op6",
+                    "qty": 4,
+                    "product": "p2",
+                    "client": "cl1",
+                    "task": "t2"
+                }
+            }
+        ]
+    },
+    {
+        "machine": "m2",
+        "tasks": [
+            {
+                "fromTime": 0.0,
+                "toTime": 2.5,
+                "action": "setup",
+                "bodyAction": {
+                    "tool": "fb"
+                }
+            },
+            {
+                "fromTime": 2.5,
+                "toTime": 8.5,
+                "action": "exec",
+                "bodyAction": {
+                    "op": "op1",
+                    "qty": 3,
+                    "product": "p3",
+                    "client": "cl2",
+                    "task": "t3"
+                }
+            },
+            {
+                "fromTime": 27.0,
+                "toTime": 28.0,
+                "action": "setup",
+                "bodyAction": {
+                    "tool": "ff"
+                }
+            },
+            {
+                "fromTime": 28,
+                "toTime": 44,
+                "action": "exec",
+                "bodyAction": {
+                    "op": "op7",
+                    "qty": 4,
+                    "product": "p2",
+                    "client": "cl1",
+                    "task": "t2"
+                }
+            }
+        ]
+    }
+]
